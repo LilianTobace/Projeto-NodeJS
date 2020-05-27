@@ -1,0 +1,27 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "primeiro projeto",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore *.marko.js"
+  },
+  "author": "Lilian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^5.3.1",
+    "marko": "^4.19.5",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sqlite": "^3.0.3",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
